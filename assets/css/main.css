@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.profile-image img {
+    border-radius: 10rem;
+    height: 5rem !important;
+    width: 5rem !important;
+    display: unset !important;
+    object-fit: cover;
+}
+
+section {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.hero-title h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.about-title h2, .vision-title h2, .blog-title h2, .testimonial-title h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.vision-action .nav-item {
+    font-size: 1.25rem !important;
+}
+
+.vision img {
+    max-height: 25rem !important;
+    width: auto !important;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.blog-list .card {
+    border-radius: 1rem !important;
+}
+
+.blog-list img {
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+}
+
+.testimonial-text h5 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.footer .nav-link {
+    font-size: 1rem !important;
+    font-weight: 500;
+    color: #212529 !important;
+}
+
+.footer .btn {
+    width: 5rem;
+    height: 5rem;
+}
